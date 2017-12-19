@@ -3,7 +3,6 @@ import requests
 
 class IntStream:
     def __init__(self, api_key, leila1, leila2):
-        #key as attribute to be reassigned if needed upon creation
         self.api_key = api_key
         self.leila1 = leila1
         self.leila2 = leila2
